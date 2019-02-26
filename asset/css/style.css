@@ -1,3 +1,21 @@
 
 
 /*# sourceMappingURL=style.css.map */
+/*jumbotron*/
+.jumbotron{
+    background-image: url('imageJombotron.png');
+    size: 100%
+}
+.jumbotron h1 {
+    font-size: 90px;
+}
+.text-center{
+    color:  #DDD5B3;
+}
+/*navbar*/
+.navbar {
+    background-image: url('tablecloth-458019.jpg');
+}
+.active {
+    background-color: red;
+}
