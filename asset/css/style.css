@@ -1,21 +1,14 @@
 
 
 /*# sourceMappingURL=style.css.map */
-/*jumbotron*/
-.jumbotron{
-    background-image: url("../img/imageJombotron.png");
-    size: 100%;    
-    border: 10px solid transparent;
-    padding: 15px;
-    border-image: url("../img/tablecloth-458019.jpg") 10 stretch;
-    
-}
-.text-center{
-    color: white;
-}
-.blocNape {
+/*arriere plan*/
+#bg {
+    position:relative;
+    z-index: 1;
     background-image: url("../img/tablecloth-458019.jpg");
-    width: 200px;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    filter: alpha(opacity=50);
 }
 /*PopUp*/
 {box-sizing: border-box;}
@@ -23,11 +16,35 @@
     max-width: 300px;
     padding: 10px;
     background-color: white;
+
 }
 .popUp {
     max-width: 300px;
     padding: 10px;
-    background-color: brown;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex; 
+    text-justify: initial;
+    color: black;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+}
+
+/*jumbotron*/
+.jumbotron{
+    background-image: url("../img/imageJombotron.png");
+}
+.text-center{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.sousTitre{
+    font-weight: bold;
+    font-size: 40px;
 }
 
 /*animation titre*/
@@ -42,4 +59,7 @@
     display: inline-block;
     line-height: 1em;
 }
+
+
+
 

@@ -11,7 +11,7 @@ window.onload = () => {
     document.getElementById("popUp").innerText = txt;
 
     // animation titre
-        anime.timeline({loop: true})
+        anime.timeline({loop: 1 })
         .add({
             targets: '.ml15 .word',
             scale: [14,1],
@@ -23,7 +23,7 @@ window.onload = () => {
             }
         }).add({
             targets: '.ml15',
-            opacity: 0,
+            opacity: 1,
             duration: 1000,
             easing: "easeOutExpo",
             delay: 1000
