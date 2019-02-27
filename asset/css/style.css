@@ -10,9 +10,6 @@
     border-image: url("../img/tablecloth-458019.jpg") 10 stretch;
     
 }
-.jumbotron h1 {
-    font-size: 90px;
-}
 .text-center{
     color: white;
 }
@@ -32,3 +29,17 @@
     padding: 10px;
     background-color: brown;
 }
+
+/*animation titre*/
+.ml15 {
+    font-weight: 800;
+    font-size: 3.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+.ml15 .word {
+    display: inline-block;
+    line-height: 1em;
+}
+
