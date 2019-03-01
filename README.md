@@ -1,7 +1,9 @@
 ## Final work online:
-[ resto website ] https://mathildeba.github.io/bootstrap-resto-website/
+[Cabane a Jojo](https://mathildeba.github.io/bootstrap-resto-website/)
 
-Here is an example of [Cabane a Jojo](https://mathildeba.github.io/bootstrap-resto-website/) application.
+## Work visual preview:
+<img src="https://github.com/MathildeBa/bootstrap-resto-website/blob/developpement/asset/img/visual.jpg" class="final visual"/>
+
 
 
 # Projet : Premier site en bootstrap
