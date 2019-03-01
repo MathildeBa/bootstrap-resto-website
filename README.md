@@ -5,7 +5,7 @@
 - Publier le résultat en tant que GitHub Page
 - Remise du projet [via ce formulaire](https://goo.gl/forms/nkikL2FEy3O11gFw1)
 
-## Quoi ?
+## Consignes ?
 
 >Le site est un site vitrine d'une franchise de restaurants. La franchise est fictive mais le type de nourriture (burger, pizza, asiatique,...) est laissé au choix de l’apprenant.
 
