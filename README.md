@@ -4,6 +4,14 @@
 ## Work visual preview:
 <img src="https://github.com/MathildeBa/bootstrap-resto-website/blob/developpement/asset/img/visual.jpg" class="final visual"/>
 
+## Acknowledgments
+
+* .html
+* .css
+* .js
+* Bootsrap 4
+* Gimp
+* GitHub Projects
 
 
 # Projet : Premier site en bootstrap
