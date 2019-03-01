@@ -1,54 +1,61 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>bootstrap-resto-website carte</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./asset/css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-</head>
-<body>
-    <!-- Navbar-->
-    <div>
-        <nav class="navbar navbar-inverse">
+    <head>
+        <title>bootstrap-resto-website carte</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="shortcut icon" type="image/x-icon" href="./asset/img/favicon.jpg">
+        <script src='./asset/js/main.js'></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+
+    </head> 
+    <body>
+        <div id="bg">
             <div class="container-fluid">
-                <div class="navbar-header">
-                <a class="navbar-brand" href="#">Cabane à Jojo</a>
+                <header>
+                    <nav class="navbar navbar-inverse">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                            <a class="navbar-brand" href="#">Cabane à Jojo</a>
+                        </div>
+                            <ul class="nav navbar-nav">
+                                <li><a href="../../index.html">accueil</a></li>
+                                <li class="active"><a href="#">carte</a></li>
+                                <li><a href="./Photos.html">photos</a></li>
+                                <li><a href="./restaurants.html">restaurants</a></li>
+                                <li><a href="./contact.html" >contact&nbsp;<span class="glyphicon glyphicon-envelope"></span></a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </header>
+                <main>
+                    <!-- image du menu-->
+                    <div class="image"></div>
+                    <div class="ingredientsMenu"></div>
+                    <div class="tarifs">
+                        <div class="dinner">
+                            <div class="jEtV"></div>
+                            <div class="samedi"></div>
+                            <div class="dimanche"></div>
+                            <div class="dimanchePaques"></div>
+                        </div>
+                        <div class="souper">
+                        <div class="jEtV"></div>
+                            <div class="samedi"></div>
+                            <div class="dimanche"></div>
+                            <div class="dimanchePaques"></div>
+                        </div>
+                        <div class="tarifToutTemps"></div>
+                        <div class="tarifGroupe"></div>
+                    </div>
+                </main>
             </div>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">carte</a></li>
-                    <li><a href="./asset/pagesHtml/index.html">accueil</a></li>
-                    <li><a href="./asset/pagesHtml/Photos.html">photos</a></li>
-                    <li><a href="./asset/pagesHtml/restaurants.html">restaurants</a></li>
-                    <li><a href="./asset/pagesHtml/contact.html">contact</a></li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-    <div>
-        <!-- image du menu-->
-        <div class="image"></div>
-        <div class="ingredientsMenu"></div>
-        <div class="tarifs">
-            <div class="dinner">
-                <div class="jEtV"></div>
-                <div class="samedi"></div>
-                <div class="dimanche"></div>
-                <div class="dimanchePaques"></div>
-            </div>
-            <div class="souper">
-            <div class="jEtV"></div>
-                <div class="samedi"></div>
-                <div class="dimanche"></div>
-                <div class="dimanchePaques"></div>
-            </div>
-            <div class="tarifToutTemps"></div>
-            <div class="tarifGroupe"></div>
         </div>
-    </div>
-</body>
+    </body>
 </html>
