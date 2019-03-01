@@ -1,6 +1,4 @@
 
-
-/*# sourceMappingURL=style.css.map */
 /*arriere plan*/
 #bg {
     position: relative;;
@@ -18,6 +16,7 @@ bg:after {
     opacity: 0.3;
     filter: alpha(opacity=50);
 }
+
 /*PopUp*/
 {box-sizing: border-box;}
 .myFunction {
@@ -43,6 +42,7 @@ bg:after {
 }
 
 /*jumbotron*/
+
 .jumbotron{
     background-image: url("../img/imageJombotron.png");
 }
